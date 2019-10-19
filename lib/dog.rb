@@ -12,4 +12,12 @@ class Dog
   end 
   
   puts methods.sort 
+  def sel.clear_all
+    @@all =[]
+  end
+  
+  def self.print_all
+    @@all.each{|dog|}
+    puts dog
+  end
 end 
